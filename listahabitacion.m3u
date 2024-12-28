@@ -98,6 +98,19 @@ http://home-playtv.com:8080/cfrJNc6LUjaG/8ZE5KZTcv3Ne/54514
 http://home-playtv.com:8080/cfrJNc6LUjaG/8ZE5KZTcv3Ne/439738
 #EXTINF:-1 tvg-id="" tvg-name="1" tvg-logo="https://n9.cl/c6h7u" group-title="CINE Y SERIES",Universal TV HD 
 http://home-playtv.com:8080/cfrJNc6LUjaG/8ZE5KZTcv3Ne/184477
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6cf9a13d6fd65a0f2e1cee3969aab9f5:ea61c3c1adee71b5c2e9744e41d4b75f
+#EXTINF:-1 ch-number="342" tvg-id="Universal HD.uy" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/UNVTV.png?raw=true" group-title="CINE Y SERIES", Universal TV
+#EXTVLCOPT:http-user-agent=Chrome/61.0.3163.100
+https://cdn.cvattv.com.ar/live/c6eds/Universal_Channel_HD/SA_Live_dash_enc/Universal_Channel_HD.mpd?|referer=https://web.app.flow.com.ar/|origin=https://web.app.flow.com.ar
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6cf9a13d6fd65a0f2e1cee3969aab9f5:ea61c3c1adee71b5c2e9744e41d4b75f
+#EXTINF:-1 ch-number="343" tvg-id="Universal HD.uy" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/UNVTV.png?raw=true" group-title="CINE Y SERIES", Universal TV
+#EXTVLCOPT:http-user-agent=Chrome/61.0.3163.100
+https://cdn.cvattv.com.ar/live/c6eds/Universal_Channel_HD/SA_Live_dash_enc/Universal_Channel_HD.mpd?%7Creferer=https%3A%2F%2Fweb.app.flow.com.ar%2F%7Corigin%3Dhttps%3A%2F%2Fweb.app.flow.com.ar&ck=eyI2Y2Y5YTEzZDZmZDY1YTBmMmUxY2VlMzk2OWFhYjlmNSI6ImVhNjFjM2MxYWRlZTcxYjVjMmU5NzQ0ZTQxZDRiNzVmIn0%3D
+
 #EXTINF:-1 tvg-id="" tvg-name="1" tvg-logo="https://n9.cl/c6h7u" group-title="CINE Y SERIES",Usa Network (SyFy) HD
 http://home-playtv.com:8080/cfrJNc6LUjaG/8ZE5KZTcv3Ne/54240
 #EXTINF:-1 tvg-id="" tvg-name="1" tvg-logo="https://n9.cl/c6h7u" group-title="CINE Y SERIES",TBS HD
