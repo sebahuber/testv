@@ -14,9 +14,16 @@ https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8=
 #EXTINF:-1  tvg-logo="https://geo.edge.pontiscloud.com:9002/images/58/CH_LOGO/160/160/0/0/47205269072808.png" group-title="Aire", 🟢 EL NUEVE 
 https://smt-edge03.sensa.com.ar//live/eds/Canal9/live_dash_cld/Canal9.mpd
 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ea235ce0826408b221c498115a9b62d:7aa9266ed91ea4510483370029dfcf45
+#EXTINF:-1 tvg-chno="102" tvg-id="AmericaTV.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/AMER2.png?raw=true" tvg-group="Nacionales", América
+https://chromecast.cvattv.com.ar/live/c3eds/AmericaTV/SA_Live_dash_enc_2A/AmericaTV.mpd
 
-#EXTINF:-1 tvg-id="LaNacionPlus.ar" tvg-logo="https://i.imgur.com/Gj1kqH5.png" group-title="Noticias",La Nación+ (720p) 
-https://ythls.armelin.one/channel/UCba3hpU7EFBSk817y9qZkiA.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f4eade7bbc39b25402acfa301bbad04a:a74d1df4235a74878327aa8d53ff283c
+#EXTINF:-1 tvg-chno="6" tvg-id="LaNacionPlus.ar" tvg-name="LNAC+" tvg-logo="https://git.io/J35ry" tvg-group="Noticias", La Nación +
+https://chromecast.cvattv.com.ar/live/c7eds/La_Nacion/SA_Live_dash_enc_2A/La_Nacion.mpd
 
 #EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/TN.png", TN
 #EXTGRP:NOTICIAS
@@ -30,11 +37,26 @@ https://ythls.armelin.one/channel/UCba3hpU7EFBSk817y9qZkiA.m3u8
 #KODIPROP:inputstream.adaptive.license_key=7ceb1cd0622cd7e88fcdc99fe3a55de6:951637093d41c7388a1ef3f620cfea21
 https://edge-live02-mun.cvattv.com.ar/live/c7eds/TodoNoticias/SA_Live_dash_enc/TodoNoticias.mpd
 
-#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Cr%C3%B3nica_TV_logotipo_%282008-2015%29.png" group-title="Noticias",Crónica TV (1080p) [Not 24/7]
-https://ythls.armelin.one/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g.m3u8
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=e32aaa4b67430b3b51be1efce5a74ac5:ad60c5e1d378a97271bf8688f094d092
+#EXTINF:-1 tvg-chno="4" tvg-id="Canal26.ar" tvg-name="CAN26" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/CAN26.png?raw=true" tvg-group="Noticias", Canal 26
+https://cdn.cvattv.com.ar/live/c6eds/26_TV_HD/SA_Live_dash_enc_2A/26_TV_HD.mpd
 
-#EXTINF:-1 tvg-id="C5N.ar" tvg-logo="https://i.imgur.com/5ZNZYjO.png" group-title="Noticias",C5N (1080p) [Not 24/7]
-https://ythls.armelin.one/channel/UCFgk2Q2mVO1BklRQhSv6p0w.m3u8
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=050df5c6e78c774e78c3e99eef8a1b29:0e4141d6ab21a36cbc4da777ab3096d4
+#EXTINF:-1 tvg-chno="5" tvg-id="C5N.ar" tvg-name="C5NOT" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/C5NAR.png?raw=true" tvg-group="Noticias", C5N
+https://cdn.cvattv.com.ar/live/c7eds/C5N/SA_Live_dash_enc_2A/C5N.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5299f96f873aa0f0e47edc4e15784717:9d53176b0969492f2d93f1867be1dce1
+#EXTINF:-1 tvg-chno="7" tvg-id="InformacionPeriodistica.ar" tvg-name="IPNOT" tvg-logo="https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/IPNOT.png" tvg-group="Noticias", IP Noticias
+https://cdn.cvattv.com.ar/live/c7eds/Investigacion_Periodistica/SA_Live_dash_enc/Investigacion_Periodistica.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=745e7abcc90d41ab706b2ac2f4371da3:50acd9d19d1361cb4a8a13a867bdc352
+#EXTINF:-1 tvg-chno="8" tvg-id="CronicaTV.ar" tvg-name="" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/CRNCA.png?raw=true" tvg-group="Noticias", Cronica
+https://chromecast.cvattv.com.ar/live/c7eds/CronicaTV/SA_Live_dash_enc_2A/CronicaTV.mpd
+
 #EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/A24_1.png", A24
 #EXTGRP:NOTICIAS
 #EXTVLCOPT:http-referrer="https://web.app.flow.com.ar/"
@@ -56,12 +78,7 @@ https://edge-live02-mun.cvattv.com.ar/live/c7eds/America24/SA_Live_dash_enc/Amer
 
 
 
-#EXTINF:-1 tvg-id="Deutsche.Welle.TV.Español.(DW-ES).ar" tvg-logo="https://raw.githubusercontent.com/dvds1151/AR-TV/main/icons/03-DW.png" tvg-language="Spanish" group-title="Internacionales", DW Español
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream01/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="euronews.(EUNEWS).ar" tvg-logo="https://raw.githubusercontent.com/dvds1151/AR-TV/main/icons/03-EuroNews.png" tvg-language="Spanish" group-title="Internacionales", Euronews Español
-https://rakuten-euronews-4-es.samsung.wurl.tv/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNenEspanol.us" tvg-logo="https://raw.githubusercontent.com/dvds1151/AR-TV/main/icons/03-CNNEsp.png" tvg-language="Spanish" group-title="Internacionales", CNN en Español
-http://200.113.4.75:7210/play/a005/index.m3u8
+
 
 
 
@@ -945,124 +962,7 @@ https://FLOW.klowdtv.net/803B48A/n1.klowdtv.net/live1/cine_720p/playlist.m3u8
 ####https://FLOW1-6p.teleuptv.net/a770b798-f2c0-4251-949d-b2fdc6d51898/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Bayres_1.png", BAYRES TV
-#EXTGRP:PELICULAS
-https://streaming02.gbasat.com.ar:19360/bayrestv/bayrestv.m3u8
 
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Cosmos_1.png", COSMOS TV
-#EXTGRP:PELICULAS
-https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/MasCine_1.png", MAS CINE
-#EXTGRP:PELICULAS
-####EXTVLCOPT:http-referrer=https://tv.streaming-chile.com
-https://tv.streaming-chile.com:19360/8142/8142.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Origen_1.png", ORIGEN TV
-#EXTGRP:PELICULAS
-####EXTVLCOPT:http-referrer=https://tv.streaming-chile.com
-https://tv.streaming-chile.com:8081/origentvhd/index.m3u8
-####https://tv.streaming-chile.com:8081/origentvsd/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/SPTV_1.png", SPTV DIGITAL
-#EXTGRP:PELICULAS
-https://srv2.zcast.com.br/sptv32/sptv32/playlist.m3u8
-#####https://corsproxy.io/?http://heroem3u.html-5.me/twitch/sptvcanal32/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/GenTV_1.png", GEN TV
-#EXTGRP:PELICULAS
-https://FLOWhd.iblups.com/hls/20HQGYYDF9.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/NeoTV_1.png", NEO TV
-#EXTGRP:PELICULAS
-https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/WOW.png", WOW TV
-#EXTGRP:PELICULAS
-https://FLOW.elsalvadordigital.com:1936/wowtv/smil:wowtv.smil/playlist.m3u8
-
-#EXTINF:-1 region="US" tvg-logo="https://heroeip.github.io/logo/Hallmark_1.png", HALLMARK
-#EXTGRP:PELICULAS
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/sam-US1300001GM.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/MyTime_1.png", MYTIME
-#EXTGRP:PELICULAS
-https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/MyTime.png", MYTIME 2
-#EXTGRP:PELICULAS
-https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/PeliculasMania-1.png?v=4", PELICULASMANIA
-#EXTGRP:PELICULAS
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:http-referrer=https://vaughn.live/
-http://bgtv.xyz/vau.php?id=peliculas_mania
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/TerrorMania-1.png?v=4", TERRORMANIA
-#EXTGRP:PELICULAS
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:http-referrer=https://vaughn.live/
-http://bgtv.xyz/vau.php?id=terror_mania
-
-
-
-#EXTINF:-1 tvg-logo="https://FLOW.vaughnsoft.net/profile/1729449963/a_neflix01.jpg", NETFLIXCINE
-#EXTGRP:PELICULAS
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:http-referrer=https://vaughn.live/
-http://bgtv.xyz/vau.php?id=a_neflix01
-
-#EXTINF:-1 tvg-logo="https://FLOW.vaughnsoft.net/profile/1729540453/fox_hdr.jpg", FOXCINE
-#EXTGRP:PELICULAS
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:http-referrer=https://vaughn.live/
-http://bgtv.xyz/vau.php?id=fox_hdr
-
-#EXTINF:-1 tvg-logo="https://FLOW.vaughnsoft.net/profile/1729450049/zonafilmstv.jpg", ZONAFILMS
-#EXTGRP:PELICULAS
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:http-referrer=https://vaughn.live/
-http://bgtv.xyz/vau.php?id=zonafilmstv
-
-#EXTINF:-1 tvg-logo="https://FLOW.vaughnsoft.net/profile/1729540160/cinemundo_plus.jpg", CINEMUNDO
-#EXTGRP:PELICULAS
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:http-referrer=https://vaughn.live/
-http://bgtv.xyz/vau.php?id=cinemundo_plus
-
-#EXTINF:-1 tvg-logo="https://FLOW.vaughnsoft.net/profile/1729540376/juancine_tv.jpg", JUANCINE
-#EXTGRP:PELICULAS
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:http-referrer=https://vaughn.live/
-http://bgtv.xyz/vau.php?id=juancine_tv
-
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Simpsons.png?v=4", SIMPSONMANIA
-#EXTGRP:SERIES
-/home/solido/Descargas/Gladiator 2024 1080p CAMRip LAT.mp4#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Firefox
-#EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:http-referrer=https://vaughn.live/
-http://bgtv.xyz/vau.php?id=simpson_maniahd193
 
 
 
@@ -1264,15 +1164,6 @@ https://edge-live02-mun.cvattv.com.ar/live/c6eds/History_2/SA_Live_dash_enc/Hist
 ####https://latamvosliveclarovideo.akamaized.net/Content/DASH_DASH_FK/Live/Channel(H2_HD)/manifest.mpd
 
 
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/History_1.png", HISTORY 3
-#EXTGRP:DOCUMENTALES
-#EXTVLCOPT:http-referrer="https://web.app.flow.com.ar/"
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent="Firefox"
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/sam-US2600019IC.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Natgeo_1.png", NATGEO
@@ -1300,18 +1191,7 @@ https://edge-live02-mun.cvattv.com.ar/live/c3eds/NatGeoHD/SA_Live_dash_enc/NatGe
 #KODIPROP:inputstream.adaptive.license_key_old={"keys": [{"kty": "oct","k": "so36+6S4SN/V18F36/GRCA","kid": "UnnAXqUcTa6Of6a+iESAiQ"}],"type": "temporary"}
 https://edge-live02-mun.cvattv.com.ar/live/c6eds/Theater_HD/SA_Live_dash_enc_2A/Theater_HD.mpd
 
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Theater.png", THEATER MX
-#EXTGRP:DOCUMENTALES
-#EXTVLCOPT:http-referrer="https://web.app.flow.com.ar/"
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent="Firefox"
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=61832a28bc7a51573d3b99b5c5445dbf:f3d0436ca3e8374b6bc19c57e9cbe5c7
-#KODIPROP:inputstream.adaptive.stream_headers=Referer="https://latamvosliveclarovideo.akamaized.net/"
-https://latamvosliveclarovideo.akamaized.net/Content/DASH_DASH_FK/Live/Channel(DISCOVERY_THEATER_HD)/manifest.mpd
+
 
 #EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/World.png", WORLD
 #EXTGRP:DOCUMENTALES
@@ -1385,21 +1265,7 @@ https://edge-live02-mun.cvattv.com.ar/live/c3eds/DiscoveryHomeHealthHD/SA_Live_d
 #KODIPROP:inputstream.adaptive.license_key=58761c7b2819491eb3a0d765842c341a:9dabc48f88bd7f266734e57501bd6f47
 https://edge-live02-mun.cvattv.com.ar/live/c6eds/TLC/SA_Live_dash_enc/TLC.mpd
 
-#EXTINF:-1 tvg-logo="https://television-libre.online/img/hgtv.webp", HGTV 
-#EXTGRP:DOCUMENTALES
-#EXTVLCOPT:http-referrer="https://web.app.flow.com.ar/"
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent="Firefox"
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5a5626f776dc6a88d136abe4a261e287:4a78f8488b381ab57241f7d13b2d4324
-#KODIPROP:inputstream.adaptive.stream_headers=Referer="https://latamvosliveclarovideo.akamaized.net/"
-https://latamvosliveclarovideo.akamaized.net/Content/DASH_DASH_FK/Live/Channel(DISCOVERY_CIVILIZATION)/manifest.mpd
-#####KODIPROP:inputstream.adaptive.license_key=20ab5ee364e590bec8df262e6e36be66:c7e8552af5cf774eeb6ecd029a23e4ac
-#####KODIPROP:inputstream.adaptive.license_key_old={"keys": [{"kty": "oct","k": "x+hVKvXPd07rbs0CmiPkrA","kid": "IKte42TlkL7I3yYubja+Zg"}],"type": "temporary"}
-#####https://edge-live02-mun.cvattv.com.ar/live/c7eds/Home_and_Garden/SA_Live_dash_enc_2A/Home_and_Garden.mpd
+
 
 
 #EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Encuentro_1.png", ENCUENTRO
@@ -1496,26 +1362,56 @@ https://edge-live02-mun.cvattv.com.ar/live/c7eds/Hola_TV/SA_Live_dash_enc/Hola_T
 #KODIPROP:inputstream.adaptive.license_key=5883553207f13e3dc8cecd1113d5ba68:45434d40636dfa0e5312b93218e02185
 https://edge-live02-mun.cvattv.com.ar/live/c6eds/E_Entertainment_Television/SA_Live_dash_enc/E_Entertainment_Television.mpd
 
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Cheaters-1.png", CHEATERS
-#EXTGRP:DOCUMENTALES
-#EXTVLCOPT:http-referrer="https://web.app.flow.com.ar/"
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent="Firefox"
-#EXTVLCOPT--http-reconnect=true
-https://jmp2.uk/Plex/643054b1fc3be59477853717-65623e0eb7d737841f30a4ff.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://heroeip.github.io/logo/Pluto-1.png", BRITAIN SURVIVOR
-#EXTGRP:DOCUMENTALES
-#EXTVLCOPT:http-referrer="https://web.app.flow.com.ar/"
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent="Firefox"
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jmp2.uk/sam-GBBB3800007BN.m3u8
-####https://amg00627-banijaygroup-surviour-uk-samsunguk-uyz22.amagi.tv/playlist/amg00627-banijaygroup-survivor-samsunguk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
 
+#EXTINF:-1 tvg-id="Deutsche.Welle.TV.Español.(DW-ES).ar" tvg-logo="https://raw.githubusercontent.com/dvds1151/AR-TV/main/icons/03-DW.png" tvg-language="Spanish" group-title="Internacionales", DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream01/streamPlaylist.m3u8
+#EXTINF:-1 tvg-id="euronews.(EUNEWS).ar" tvg-logo="https://raw.githubusercontent.com/dvds1151/AR-TV/main/icons/03-EuroNews.png" tvg-language="Spanish" group-title="Internacionales", Euronews Español
+https://rakuten-euronews-4-es.samsung.wurl.tv/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNenEspanol.us" tvg-logo="https://raw.githubusercontent.com/dvds1151/AR-TV/main/icons/03-CNNEsp.png" tvg-language="Spanish" group-title="Internacionales", CNN en Español
+http://200.113.4.75:7210/play/a005/index.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=53e0a3741e2e4ff5843f165b53309088:45095caabd9a359cd7ea3910d865d643
+#EXTINF:-1 tvg-chno="801" tvg-id="TVEInternacionalAmerica.es" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TVESP.png?raw=true" group-title="Mundo", TVE
+https://chromecast.cvattv.com.ar/live/c6eds/TV_Espana/SA_Live_dash_enc_2A/TV_Espana.mpd
+
+#EXTINF:-1 tvg-chno="802" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TVE24.png?raw=true" group-title="Mundo", 24 Horas (España)
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1e1ad422a6714482b66fa702c16e50c6:4fdf28a0ab91356ca55a75f4e9bf8c92
+#EXTINF:-1 tvg-chno="803" tvg-id="Antena3InternacionalHD.es" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/ANTN3.png?raw=true" group-title="Mundo", Antena 3 Internacional
+https://chromecast.cvattv.com.ar/live/c6eds/Antena_3/SA_Live_dash_enc_2A/Antena_3.mpd
+
+#EXTINF:-1 tvg-chno="806" tvg-id="CGTNSpanish.cn" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/CGTNE.png?raw=true" group-title="Mundo", CGTN
+https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
+
+#EXTINF:-1 tvg-chno="807" tvg-id="DWEspanol.de" tvg-logo="https://git.io/JOTLM" group-title="Mundo", Deutsche Welle
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+
+#EXTINF:-1 tvg-chno="819" tvg-id="Telesur.ve" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TLSUR.png?raw=true" group-title="Mundo", TeleSUR
+https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=62034ff5988b4787b17cdf6f751a3142:b3938f0af28b4c0c082b0d4210e389a0
+#EXTINF:-1 tvg-chno="808" tvg-id="TV5MondeLatinAmerica.fr" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TV5AL.png?raw=true" group-title="Mundo", TV5Monde Amerique Latine
+https://chromecast.cvattv.com.ar/live/c6eds/TV5_Monde/SA_Live_dash_enc_2A/TV5_Monde.mpd
+
+#EXTINF:-1 tvg-chno="809" tvg-id="NHKWorldJapan.jp" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/NHKWJ.png?raw=true" group-title="Mundo", NHK World Japan 
+https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=019f72f2091d4cbea59ff8c85b117f86:a4eac51195506752f9f63ad24def9c37
+#EXTINF:-1 tvg-chno="823" tvg-id="BBCWorldNewsLatinAmerica.uk" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/BBCNW.png?raw=true" group-title="Mundo", BBC News
+https://chromecast.cvattv.com.ar/live/c6eds/BBC_World_News/SA_Live_dash_enc_2A/BBC_World_News.mpd
+
+
+
+
+#EXTINF:-1 tvg-chno="825" tvg-id="TRTWorld.tr" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TRTWR.png?raw=true" tvg-group="Mundo", TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 
